@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+
+
+}
+
+.banner {
+    background: linear-gradient(to top, #111111 100%, #777777 0%);
+
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    color: #E6533C;
+    font-size: 26px;
+    font-family: Inter;
+
+}
+
+.menu {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu li {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Inter;
+
+}
+
+#home {
+    background-color: #E6533C;
+    padding: 8px 20px 8px 20px;
+    border-radius: 46px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    /* Full viewport height */
+    max-width: 1080px;
+    margin: auto;
+}
+
+.hero-text {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 180%;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 530px;
+}
+
+.hero-text p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF80;
+    margin: 30px 5px 30px 5px;
+
+}
+
+.hero-img {
+    margin-right: -20%;
+}
+
+
+.shape {
+    font-family: "Playwrite AU SA", serif;
+    font-weight: 100;
+}
+
+.hero-btn button {
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.btn-1 {
+    background-color: #E6533C;
+    color: #fff;
+
+}
+
+
+.card-1 {
+    color: #fff;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 18px 25px 18px 25px;
+    margin-left: -12%;
+    margin-top: -18%;
+    margin-right: -10%;
+}
+
+.card-2 {
+    color: #fff;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 18px 25px 18px 25px;
+    width: 206px;
+   
+    margin-top: -30%;
+    margin-left: -32%;
+
+}
