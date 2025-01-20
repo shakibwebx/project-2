@@ -135,8 +135,116 @@
     background: rgba(255, 255, 255, 0.1);
     padding: 18px 25px 18px 25px;
     width: 206px;
-   
+
     margin-top: -30%;
     margin-left: -32%;
+
+}
+
+.habit-section {
+    max-width: 1080px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+    color: #fff;
+}
+
+.habit-section h1 {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.habit-section p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 20px;
+}
+
+.habit-section h4 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.habit-section-img {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    color: #fff;
+    margin: 30px;
+
+}
+
+.habits img {
+    border-radius: 50%;
+    margin: 20px;
+
+}
+
+.all-habit-sec {
+    background-color: #111111;
+    padding: 20px;
+}
+
+.extra-mile {
+    display: flex;
+    color: #fff;
+    max-width: 1080px;
+    margin: auto;
+    background-color: #222222;
+    padding: 40px 60px 40px 60px;
+    justify-content: space-between;
+    border-radius: 18px;
+    align-items: center;
+
+
+}
+
+
+
+.extra-mile-text h1 {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+
+}
+
+.extra-mile-text p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin: 30px 0px 30px 0px;
+}
+
+.extra-mile-text button {
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #fff;
+
+}
+
+
+.extra-mile-img img {
+    border-radius: 18px;
+    width: 366px;
+
+
 
 }
