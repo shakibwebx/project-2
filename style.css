@@ -248,3 +248,67 @@
 
 
 }
+
+.traing-text{
+    max-width: 1080px;
+    margin: 50px 80px 50px 95px;
+    text-align: left;
+
+}
+
+.traing-text h1{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    color: #fff;
+
+}
+
+.traing-text p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin: 30px 0px 30px 0px;
+
+}
+.trainig div img{
+    width: 400px;
+    background-repeat: no-repeat;
+}
+    
+
+.trainig {
+    max-width: 1440px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    justify-items: center;
+}
+
+
+
+.trainig-child-1 {
+   
+    
+}
+
+.trainig-child-2 {
+   
+    
+}
+
+.trainig-child-3 {
+
+}
+
+.trainig-child-4 {}
+
+.trainig-child-5 {}
+
+.trainig-child-6 {
+
+}
