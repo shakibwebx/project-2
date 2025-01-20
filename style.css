@@ -23,11 +23,12 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    align-items: center;
 }
 
 .logo {
     color: #E6533C;
-    font-size: 26px;
+    font-size: 1.6rem;
     font-family: Inter;
 
 }
@@ -52,6 +53,12 @@
 
 }
 
+.hamburger{
+    color: #fff;
+    font-size: 20px;
+    display: none;
+}
+
 #home {
     background-color: #E6533C;
     padding: 8px 20px 8px 20px;
@@ -68,7 +75,7 @@
     justify-content: space-between;
     align-items: center;
     height: 100vh;
-    max-width: 1080px;
+    max-width: 1440px;
     margin: auto;
     
 }
@@ -76,7 +83,7 @@
 .hero-text {
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
     line-height: 180%;
     letter-spacing: 0%;
@@ -86,7 +93,7 @@
 
 .hero-text p {
     font-family: Inter;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
     color: #FFFFFF80;
@@ -95,7 +102,9 @@
 }
 
 .hero-img {
-    margin-right: -20%;
+   display: flex;
+   align-items: center;
+   position: relative;
 }
 
 
@@ -128,9 +137,12 @@
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
     padding: 18px 25px 18px 25px;
-    margin-left: -12%;
-    margin-top: -18%;
-    margin-right: -10%;
+    margin-top: -15%;
+    margin-left: 75%;
+    
+    
+    
+    position: absolute;
 }
 
 .card-2 {
@@ -142,14 +154,14 @@
     background: rgba(255, 255, 255, 0.1);
     padding: 18px 25px 18px 25px;
     width: 206px;
-
-    margin-top: -30%;
+    top: 85%;
     margin-left: -32%;
+    position: absolute;
 
 }
 
 .habit-section {
-    max-width: 1080px;
+    max-width: 1440px;
     margin: auto;
     text-align: center;
     padding: 20px;
@@ -159,7 +171,7 @@
 
 .habit-section h1 {
     font-family: Inter;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
     line-height: 120%;
 }
@@ -218,7 +230,7 @@
 
 .extra-mile-text h1 {
     font-family: Inter;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
     line-height: 120%;
 
