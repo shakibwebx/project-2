@@ -4,6 +4,8 @@
 
 }
 
+
+
 .container {
     max-width: 1080px;
     margin: auto;
@@ -56,14 +58,19 @@
     border-radius: 46px;
 }
 
+.hero-container{
+    background: linear-gradient(to top, #111111 100%, #777777 0%);
+
+}
+
 .hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100vh;
-    /* Full viewport height */
     max-width: 1080px;
     margin: auto;
+    
 }
 
 .hero-text {
@@ -297,13 +304,17 @@
 .test-tr {
     max-width: 1080px;
     margin: auto;
+    background-color: #222222;
+    padding: 10px;
+    border-radius: 18px;
 
 }
 
 .test-training {
     display: flex;
     gap: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
+    justify-content: center;
 
 
 
@@ -315,12 +326,13 @@
     display: flex;
     gap: 20px;
     margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
 }
 
 .test-training-1 {
     width: 326.67px;
     height: 272px;
-    border: 1px solid #E6533C;
     background: url("images/trainer1.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -332,7 +344,6 @@
 .test-training-2 {
     width: 326.67px;
     height: 272px;
-    border: 1px solid #E6533C;
     background: url("images/trainer2.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -343,7 +354,6 @@
 .test-training-3 {
     width: 326.67px;
     height: 272px;
-    border: 1px solid #E6533C;
     background: url("images/trainer3.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -354,7 +364,6 @@
 .test-training-4 {
     width: 326.67px;
     height: 272px;
-    border: 1px solid #E6533C;
     background: url("images/trainer4.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -365,7 +374,6 @@
 .test-training-5 {
     width: 326.67px;
     height: 272px;
-    border: 1px solid #E6533C;
     background: url("images/trainer5.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -376,7 +384,6 @@
 .test-training-6 {
     width: 326.67px;
     height: 272px;
-    border: 1px solid #E6533C;
     background: url("images/trainer6.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -435,5 +442,66 @@
 
     border-radius: 5px;
     font-size: 16px;
+
+}
+
+footer{
+    background-color: #222222;
+    
+
+}
+
+.footere{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    max-width: 1080px;
+    margin: auto;
+    padding: 50px;
+    align-items: center;
+    
+}
+
+.ftr-logo h2{
+    color: #E6533C;
+    font-size: 36px;
+    font-family: Inter;
+    font-weight: 800;
+}
+
+.ftr-logo p{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 20px 0px;
+}
+
+.ftr-service, .ftr-fitness{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 20px;
+}
+
+.copyright{
+    max-width: 1080px;
+    margin: auto;
+    
+}
+
+.copyright h5{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 30px;
+    text-align: center;
 
 }
